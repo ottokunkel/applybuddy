@@ -17,11 +17,3 @@ Core Logic: `/src/core/`
 Models: `/src/models/`  
 - Pydantic schemas for requests/responses  
 - Internal data validation
-
-Services: `/src/services/`  
-- Business logic and orchestration  
-- Stateless, testable functions
-
-Database: `/src/database/`  
-- ORM models, queries, DB access  
-- Optional: migrations, repositories

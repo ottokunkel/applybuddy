@@ -1,6 +1,8 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
+from dotenv import load_dotenv
 from src.api.v1.router import api_router
+
+load_dotenv()
 
 app = FastAPI(
     title="Apply Buddy API",

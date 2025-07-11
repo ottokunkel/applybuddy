@@ -1,0 +1,7 @@
+{
+  "name": "Apply Buddy",
+  "description": "Apply buddy is an autofill chrome extension that helps you ",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {}
+}

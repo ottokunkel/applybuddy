@@ -1,0 +1,7 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Backend for Apply Buddy which exposes api endpoints for the chrome extension"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []

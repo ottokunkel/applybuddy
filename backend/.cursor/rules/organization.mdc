@@ -1,0 +1,27 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+
+You are an expert coder. Prioritize clean, modular structure. Use the following directories when creating or organizing files:
+
+API Layer: `/src/api/v1/`  
+- Route handlers and versioned API logic  
+- Keep thin—delegate to services/core
+
+Core Logic: `/src/core/`  
+- App-wide utilities, config, exceptions  
+- Shared foundational logic
+
+Models: `/src/models/`  
+- Pydantic schemas for requests/responses  
+- Internal data validation
+
+Services: `/src/services/`  
+- Business logic and orchestration  
+- Stateless, testable functions
+
+Database: `/src/database/`  
+- ORM models, queries, DB access  
+- Optional: migrations, repositories

@@ -1,0 +1,20 @@
+[MASTER]
+load-plugins=pylint.extensions.docparams
+
+[FORMAT]
+max-line-length=100
+
+[BASIC]
+# Naming style
+variable-naming-style=snake_case
+argument-naming-style=snake_case
+function-naming-style=snake_case
+method-naming-style=snake_case
+class-naming-style=PascalCase
+const-naming-style=UPPER_CASE
+attr-naming-style=snake_case
+module-naming-style=snake_case
+inlinevar-naming-style=snake_case
+
+[TYPECHECK]
+ignore-mixin-members=yes
